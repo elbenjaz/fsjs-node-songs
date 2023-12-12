@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "titulo": "Song1",
+        "artista": "Artist1",
+        "tono": "Tone1"
+    },
+    {
+        "id": "2",
+        "titulo": "Song2",
+        "artista": "Artist2",
+        "tono": "Tone2"
+    }
+]
