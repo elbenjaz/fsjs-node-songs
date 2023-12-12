@@ -1,9 +1,9 @@
 const express = require('express');
 const songsRouter = require("./songsRouter");
-const app = express():
-const cors = require('cors')
+const app = express();
+const cors = require('cors');
 
-app.use(cors()):
+app.use(cors());
 
 app.use("/", songsRouter);
 
