@@ -1,10 +1,13 @@
 const express = require('express');
-const songsRouter = require("./songsRouter");
-const app = express();
 const cors = require('cors');
+const songsRouter = require("./songsRouter");
+
+const PORT = process.env.PORT || 3000;
+
+const app = express();
 
 app.use(cors());
 
 app.use("/", songsRouter);
 
-app.listen(3000, console.log("¡Servidor encendido!"));
+app.listen(PORT, console.log(`Server running on port ${PORT}...`));
